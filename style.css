@@ -1,0 +1,31 @@
+body{
+    background-color: lightskyblue;
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.announcements{
+    background-color: lime;
+    margin-bottom: 10px;
+}
+
+#home{
+    text-align: center;
+}
+
+.map{
+ margin-top: -348px;
+ margin-left: 100;
+}
+
+#img_school{
+    margin-left: 800px;
+}
+
+#contact_us_h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
