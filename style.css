@@ -1,31 +1,92 @@
 body{
-    background-color: lightskyblue;
+  background-color: lightskyblue;
+  text-align: center;
 }
 .my_nav_bar{
-    position: sticky;
-    top: 0;
-    z-index: 99999;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
 }
 
 .announcements{
-    background-color: lime;
-    margin-bottom: 10px;
+  background-color: lime;
+  margin-bottom: 10px;
 }
 
-#home{
-    text-align: center;
+html {
+ scroll-behavior: smooth;
 }
 
-.map{
- margin-top: -348px;
- margin-left: 100;
+#footer{
+  height: 20px;
+  background-color:white;
+  }
+
+input
+{
+    background: grey
 }
 
-#img_school{
-    margin-left: 800px;
+
+
+#video{
+  width:100%;
+  height:500px;
+  border: none;
 }
 
-#contact_us_h1{
-    text-align: center;
-    padding-bottom: 50px;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.travel_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel_mainDiv hr
+{
+    width: 100%; 
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+#achievementsID{
+ padding-bottom: 10px;
+}
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
 }
